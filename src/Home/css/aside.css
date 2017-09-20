@@ -1,0 +1,49 @@
+.home-aside{
+
+}
+.home-aside .title{
+    font-size: 15px;
+    color: #666;
+}
+.home-aside .avatar{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+.home-aside .auhor-item{
+    display: flex;
+    position: relative;
+    align-items: center;
+    margin-bottom: 10px;
+}
+ .home-aside .author-name{
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 5px; 
+    color: #666;
+
+}
+.home-aside .author-info{
+    width: 100%;
+}
+.home-aside .author-item-info span{
+    font-size: 13px;
+    color: #999;
+} 
+.home-aside .auhor-item .attention-btn{
+    position: absolute;
+    right: 0;
+    top: 0;
+    background: #42c02e;
+    color: #fff;
+    border: 1px solid #42c02e;
+    border-radius: 15px;
+    padding: 0 10px;
+    cursor: pointer;
+}
+.home-aside .auhor-item .attentioned-btn{
+    position: absolute;
+    right: 10px;
+    top: 0;
+}

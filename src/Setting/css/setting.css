@@ -1,0 +1,69 @@
+
+.setting{
+    background: #fff;
+    height: 100%;
+}
+.setting-avatar{
+    width: 60%;
+    margin:50px auto;
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+
+.setting-avatar>img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-right: 50px;
+}
+.setting-avatar>label{
+    font-size: 16px;
+}
+.avatar-change{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.setting-info{
+    width: 60%;
+    padding: 0 40px;
+    margin:20px auto;
+    font-size: 16px;
+}
+.setting-info>.setting-password>.title{
+    margin-bottom:10px;
+    color :#476d7d;
+    font-weight: bold;
+    cursor: pointer;
+}
+.setting-info>form>div{
+    margin-top: 30px;
+}
+.setting-info .username{
+    width: 200px;
+}
+.setting-info .email{
+    width: 200px;
+    margin-left: 18px;
+}
+.setting-info .userinfo-input{
+    display: flex;
+    align-items: center;
+}
+.setting-info label{
+    margin-right: 30px;
+}
+.setting-info  .sex-label{
+    margin-right: 48px;
+}
+.setting-info .textarea-input{
+    margin-top: 20px;
+    width: 70%;
+    height: 100px;
+}
+.setting-info>form>.btn{
+    margin-top: 20px;
+}

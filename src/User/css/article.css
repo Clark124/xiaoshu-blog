@@ -1,0 +1,50 @@
+.article{
+    position: relative;
+    padding: 20px 0;
+    border-bottom: 1px solid #ccc;
+}
+.article-img{
+    position: absolute;
+    right: 0;
+    width: 150px;
+    height: 150px;
+    top: 50;
+}
+.article>.article-user{
+    display: flex;
+    align-items: center;
+}
+.article>.article-user>img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.article>.article-user .username{
+    margin-right: 10px;
+    font-weight: bold;
+    
+}
+.article>.article-user>.update-time{
+    color: #999;
+}
+.article>.article-title{
+    display: inline-block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-size: 20px;
+    color: #666;
+}
+.article>.article-abstract{
+    
+}
+.article>.article-meta{
+    display: flex;
+    margin-top: 20px;
+    font-size: 13px;
+}
+.article>.article-meta li{
+    margin-right: 20px;
+    color: #999;
+}

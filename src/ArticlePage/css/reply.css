@@ -1,0 +1,23 @@
+.reply{
+    position: relative;
+}
+.reply:hover .delete-reply{
+    display: block;
+}
+.reply p{
+    font-size: 16px;
+}
+.reply>span{
+    display: inline-block;
+    font-size: 12px;
+    margin-top: 5px;
+    color: #999;
+}
+.reply>.delete-reply{
+    position: absolute;
+    display: none;
+    right: 0;
+    top: 0;
+    border: none;
+    background: #fff;
+}

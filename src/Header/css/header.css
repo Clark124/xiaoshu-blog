@@ -1,0 +1,46 @@
+.header{
+ 
+}
+
+.avatar-img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+.nav.navbar-nav.login{
+    margin-left: 30px;
+}
+.navbar.navbar-default{
+    margin-bottom: 0;
+    background-color: #f6efef;
+}
+.nav.navbar-nav.log-in-out{
+    margin-right: 30px;
+}
+.navbar-default .navbar-nav>li>a {
+    font-size: 16px;
+    color: #777;
+}
+.writer-link{
+    background: #ea6f5a;
+    border-radius: 20px;
+    color: #fff;
+    padding: 10px 20px;
+
+}
+.writer-link-wrapper{
+    padding: 5px !important;
+    margin-top: 0px;
+}
+.header a.navbar-brand {
+    font-size: 30px;
+}
+
+.nav.navbar-nav.navbar-right .dropdown{
+    margin-right: 30px;
+   
+}
+.nav.navbar-nav.navbar-right .dropdown .dropdown-toggle{
+    font-size: 18px;
+    padding: 5px !important;
+}

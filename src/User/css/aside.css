@@ -1,0 +1,28 @@
+.article-resume{
+    padding: 20px;
+    border-bottom: 1px solid #ccc;
+}
+
+.article-resume textarea{
+    height: 100px;
+    margin-top: 20px;
+    margin-bottom:20px;
+}
+.article-resume .resume-title{
+    font-size: 15px;
+    color: #666;
+    font-weight: bold;
+}
+.article-resume .edit{
+    cursor: pointer;
+    float:right;
+}
+.article-resume .resume-content{
+    margin: 20px 10px;
+}
+.my-attention{
+    padding: 20px;
+}
+.my-attention p {
+    margin-bottom: 20px;
+}

@@ -1,0 +1,23 @@
+.reply-input{
+    width: 100%;
+    transition:all .3s;
+
+}
+.reply-input:after{
+    content: '';
+    display: block;
+    clear: both;
+}
+.reply-input .input-wrapper{
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.reply-input .input-wrapper textarea{
+    width: 100%;
+    height: 120px;
+}
+.reply-input .btn{
+    float: right;
+}

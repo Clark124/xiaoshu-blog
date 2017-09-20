@@ -1,0 +1,37 @@
+
+.author-info-wrapper{
+    padding: 20px;
+    border: 1px solid #cbc9c9;
+    background: #eee2e2;
+}
+.author-info{
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.author-info>.avatar{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.author-info>.data>.username{
+    font-size: 16px;
+    font-weight: bold;
+}
+.author-info>.attention-btn{
+     position: absolute;
+     right: 20px;
+     font-size: 18px;
+     padding: 5px 20px;
+     background: #42c02e;
+     color: #fff;
+     font-weight: bold;
+     border: 1px  solid #42c02e;
+     border-radius: 20px;
+
+}
+.author-resume{
+    padding-top: 15px;
+    border-top: 1px solid #ccc;
+}

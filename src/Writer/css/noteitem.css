@@ -1,0 +1,61 @@
+.note-item{
+    position: relative;
+    border-top: 1px solid  #ccc;
+    padding: 30px 20px;
+    cursor: pointer;
+    transition: all .3s;
+    align-items: center
+}
+.note-item:hover {
+    background: #ccc;
+}
+.note-item:hover .note-setting{
+    display: block;
+
+}
+.icon{
+    position: absolute;
+    font-size: 25px;
+    color: #ec7259;
+}
+.content-wrapper{
+    margin-left: 40px;
+}
+.note-item .note-setting{
+    position: absolute;
+    display: none;
+    top: 23%;
+    right: 10%;
+}
+.note-item .setting-wrapper{
+    left: -100px;
+    text-align: center;
+    min-width: 130px;
+}
+.note-item .noteset-icon{
+    font-size: 17px;
+}
+.note-item .content-title{
+    margin-bottom: 5px;
+    height: 25px;
+    font-weight: bold;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.note-item .content{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    height: 20px;
+}
+.word-num{
+    position: absolute;
+    left: 2px;
+    bottom: 2px;
+    font-style: italic;
+    
+}
+.select {
+    background: #ccc;
+}

@@ -1,0 +1,22 @@
+.article-wrapper{
+    margin-top: 30px;
+}
+
+.article-tab{
+    display: flex;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 20px;
+}
+.article-tab li{
+    padding: 0 30px;
+    font-size: 16px;
+    cursor: pointer;
+    color: #969696;
+    font-weight: bold;
+    padding-bottom: 20px;
+    transition: all 0.3s;
+}
+.article-tab li:hover{
+    border-bottom: 1px solid #000 !important;
+    color: #333;
+}

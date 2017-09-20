@@ -1,0 +1,22 @@
+.notebook{
+    
+}
+.notebook .add-note{
+    padding: 20px;
+    cursor: pointer;
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+
+.notebook .notebook-link{
+    color: #666;
+    text-decoration: none;
+}
+
+.choose-collection{
+    text-align: center;
+    margin-top: 30px;
+    font-size: 20px;
+    color: #ec7259;
+    font-weight: bold;
+}

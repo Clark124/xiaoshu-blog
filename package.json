@@ -1,0 +1,30 @@
+{
+  "name": "react-express",
+  "version": "0.1.0",
+  "private": true,
+  "proxy":"http://127.0.0.1:5000",
+  "dependencies": {
+    "concurrently": "^3.5.0",
+    "formidable": "^1.1.1",
+    "marked": "^0.3.6",
+    "prop-types": "^15.5.10",
+    "react": "^15.6.1",
+    "react-addons-perf": "^15.4.2",
+    "react-dom": "^15.6.1",
+    "react-dropzone": "^4.0.0",
+    "react-quill": "^1.1.0",
+    "react-redux": "^5.0.5",
+    "react-router-dom": "^4.1.2",
+    "react-scripts": "1.0.10",
+    "redux": "^3.7.2",
+    "redux-immutable-state-invariant": "^2.0.0",
+    "redux-thunk": "^2.2.0",
+    "superagent": "^3.5.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}

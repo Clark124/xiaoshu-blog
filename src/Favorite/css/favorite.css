@@ -1,0 +1,9 @@
+.my-favorite{
+    width: 60%;
+    margin: 20px auto;
+}
+.my-favorite>.my-favorite-title{
+    text-align: center;
+    color: #666;
+    font-weight: bold;
+}

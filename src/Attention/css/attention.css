@@ -1,0 +1,18 @@
+.attention-wrapper{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.attention-wrapper>.attention-list{
+    width: 30%;
+}
+.attention-wrapper>.article-list{
+    width: 68%;
+    padding: 20px;
+}
+.attention-wrapper>.attention-list>.attention-title{
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+    
+}

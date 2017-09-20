@@ -1,0 +1,35 @@
+.container-page{
+    position: relative;
+    width: 60%;
+    margin: 40px auto;
+}
+.container-page .article-content{
+    line-height: 2.5;
+}
+.container-page .article-content h1,
+.container-page .article-content h2,
+.container-page .article-content h3,
+.container-page .article-content h4,
+.container-page .article-content h5,
+.container-page .article-content h6{
+    line-height: 2
+}
+.container-page .edit-article{
+    position: absolute;
+    padding: 5px 10px;
+    border-radius: 30px;
+    color: #333;
+    border: 1px solid #999;
+    right: 0;
+    top: 70px;
+    text-decoration: none;
+}
+.article-footer{
+    display: flex;
+    font-size: 13px;
+    color: #666;
+    justify-content: space-between;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
